@@ -1,0 +1,8 @@
+# RAG-ассистент: зависимости
+# Python 3.12 (проверено на 3.12.10, Windows x64)
+
+requests>=2.31        # HTTP-клиент к OpenAI-совместимому API (chat + embeddings)
+chromadb>=1.0         # векторное хранилище (встроенное, без сервера)
+python-docx>=1.1      # чтение документов Word (.docx)
+streamlit>=1.40       # веб-интерфейс демо
+python-dotenv>=1.0    # чтение настроек из .env

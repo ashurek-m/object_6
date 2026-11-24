@@ -3,6 +3,9 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
+# Служебная папка ZCode (резервные копии, учётные данные) — в git никогда
+.zcode/
+
 # Office temp files
 ~$*.docx
 ~$*.doc
